@@ -1,0 +1,156 @@
+@charset "UTF-8";
+@font-face {
+    font-family: android;
+    src: url(../fontes/idroid.otf);
+    font-weight: normal;
+    font-size: 12px;
+}
+
+/*Responsividade*/
+body{
+    background-color: #84E1AD;
+    font-size: 16px;
+    
+    
+}
+
+@media (max-width: 668px){
+  body{
+        font-size: 16px;
+        background-color: #84E1AD;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    header{
+        height: 36vh;
+    }
+    main{
+        width: 85%;
+    }
+    
+}
+  
+/*cabecalho e Menu*/
+header{
+    background-image: linear-gradient(to bottom, #37C777, #081d11 );
+   padding: 5px;
+   margin: -8px;
+   margin-bottom: -10px;
+    
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header > h1{
+    text-align: center;
+    
+}
+header > p {
+    text-align: center;
+}
+
+nav{
+    margin-top: 60px ;
+    padding: 2px;
+}
+nav > a{
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    margin: 3px;
+}
+
+nav > a:hover{
+    background-color: #2d8556;
+    border-radius: 10%;
+    padding: 8px;
+    
+}
+/*Corpo ou Layout*/
+main{
+    background-color: white;
+    margin: auto;
+    padding: 2rem;
+    margin-top: 10px;
+    min-width: 320px;
+    max-width: 800px;
+    
+}
+
+ div > h1{
+    color: #15452b;
+    font-family: android, sans-serif;
+}
+div > p{
+    text-align: justify;
+    text-indent: 10px;
+}
+
+div > h2{
+    font-family: android, sans-serif;
+    color: #287e51;
+    background-image: linear-gradient(to right, #84E1AD, #ffffff);
+    padding: 2px;
+}
+
+div > p > a{
+    text-decoration: none;
+    color: #278856;
+}
+
+main > div > picture > img {
+    
+     display: block;
+    margin: 0 auto;
+    max-width: 100%; /* para garantir responsividade */
+    height: auto;  
+}
+
+/*article*/
+ h2{
+    background-color: #15452b;
+   margin: -5px;
+   color: #ffffff;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   padding: 5px;
+}
+
+article{
+    background-color: #91e3b6;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.container {
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem;
+      font-family: Arial, sans-serif;
+    }
+
+    .coluna {
+      width: 45%;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 0.5rem 0;
+    }
+
+    footer{
+        background-color: #134227;
+        text-align: center;
+        color: #ffffffff;
+        padding: 5px;
+        margin-top: -5px;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-bottom: -10px;
+    }
